@@ -1,0 +1,26 @@
+# Java / Maven
+target/
+*.class
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Environment / secrets
+.env
+*.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Spring Boot configuration
+application.properties
+
+# Large/unnecessary files
+silver screen frontend/images/mysql-26.7.0-winx64.msi
+silver screen frontend/images/silver-screen.zip

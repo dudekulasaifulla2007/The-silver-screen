@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Silver Screen | Payment</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <h1>THE SILVER SCREEN</h1>
+</header>
+
+<main class="payment-page">
+
+    <div class="payment-box">
+
+        <h2>Complete Payment</h2>
+
+        <p>Amount Payable</p>
+
+        <h1 id="payment-amount">₹0</h1>
+
+        <div class="payment-method">
+            <h3>UPI Payment</h3>
+
+            <label for="payment-password">
+    Confirm Account Password
+</label>
+
+<input
+    type="password"
+    id="payment-password"
+    placeholder="Enter your account password"
+    required
+>
+
+            <div class="demo-box">
+
+    <h3>Payment Authorization</h3>
+
+    <p>
+        To complete this demo payment,
+        please confirm the password
+        you used to log in.
+    </p>
+
+</div>
+            <button id="pay-button">
+                Pay Now
+            </button>
+             <p id="message"></p>
+            
+        </div>
+
+    </div>
+
+</main>
+
+<script src="payment.js"></script>
+
+</body>
+</html>
