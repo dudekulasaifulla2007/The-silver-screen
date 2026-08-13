@@ -15,7 +15,7 @@ if (signupForm) {
         };
 
         const response = await fetch(
-            "http://localhost:8080/api/users/signup",
+            "https://the-silver-screen.onrender.com/api/users/signup",
             {
                 method: "POST",
                 headers: {
@@ -64,7 +64,7 @@ if (loginForm) {
         };
 
         const response = await fetch(
-            "http://localhost:8080/api/users/login",
+            "https://the-silver-screen.onrender.com/api/users/login",
             {
                 method: "POST",
                 headers: {

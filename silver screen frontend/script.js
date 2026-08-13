@@ -396,7 +396,7 @@ if (seatButtons.length > 0) {
 
             const response =
                 await fetch(
-                    `http://localhost:8080/api/bookings/show?${params}`
+                    `https://the-silver-screen.onrender.com/api/bookings/show?${params}`
                 );
 
 
@@ -907,7 +907,7 @@ if (timeCards.length > 0) {
 // ================= LOAD MOVIES FROM BACKEND =================
 
 fetch(
-    "http://localhost:8080/api/movies"
+    "https://the-silver-screen.onrender.com/api/movies"
 )
     .then(
         function (response) {

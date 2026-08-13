@@ -8,7 +8,7 @@ if(!loggedInUser){
 }
 
 fetch(
-`http://localhost:8080/api/bookings/user?email=${loggedInUser.email}`
+`https://the-silver-screen.onrender.com/api/bookings/user?email=${loggedInUser.email}`
 )
 
 .then(response=>response.json())
