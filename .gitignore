@@ -19,7 +19,7 @@ target/
 Thumbs.db
 
 # Spring Boot configuration
-application.properties
+
 
 # Large/unnecessary files
 silver screen frontend/images/mysql-26.7.0-winx64.msi
