@@ -10,7 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://the-silver-screen.vercel.app")
+@CrossOrigin(origins = {
+    "https://the-silver-screen.vercel.app",
+    "http://127.0.0.1:5500",
+    "http://localhost:5500"
+})
 @RequestMapping("/api/movies")
 public class MovieController {
 
