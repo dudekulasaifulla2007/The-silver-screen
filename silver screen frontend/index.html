@@ -9,13 +9,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script>
+    if (!localStorage.getItem("loggedInUser")) {
+        window.location.href = "login.html";
+    }
+</script>
 
     <header>
         <h1>THE SILVER SCREEN</h1>
 
         <nav>
             <a href="#">Home</a>
-    
+            <a href="profile.html">Profile</a>
             <a href="mybookings.html">My Bookings</a>
         </nav>
     </header>

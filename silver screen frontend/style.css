@@ -1146,3 +1146,29 @@ animation: appear 0.6s ease;
     text-align: center;
     font-weight: bold;
 }
+/* ================= PROFILE PAGE ================= */
+
+.login-container p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+#profile-name,
+#profile-email {
+    font-weight: normal;
+}
+
+#logout-button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    background: #7b2cbf;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#logout-button:hover {
+    background: #9d4edd;
+}
