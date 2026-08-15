@@ -104,7 +104,7 @@ if (payButton) {
 
                 const response =
                     await fetch(
-                        "https://the-silver-screen.onrender.com/api/booking",
+                        "https://the-silver-screen.onrender.com/api/bookings",
                         {
                             method: "POST",
 
